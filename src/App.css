@@ -1,0 +1,104 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  border: 4px hwb(0 78% 19%) solid;
+  border-radius: 8px;
+  box-shadow: 5px 10px #b96262;
+}
+body{
+  margin: 0;
+  font-family: 'Poppins',sans-serif;
+}
+#root{
+  background-color: #242424;
+}
+.navAir{
+  width: 550px;
+  height: 70px;
+  display: flex;
+  justify-content: left;
+  padding: 20px 36px;
+  
+}
+.nav-log{
+  width: 82.02px;
+  height: 25.35px;
+}
+.hero{
+  width: 550px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.hero > img{
+
+  height:232px ;
+  max-width: 395.91px;
+  align-self: center;
+  
+}
+.hero >h1{
+ margin-bottom: 16px;
+ align-self: center;
+}
+.hero > p{
+  margin-top: 0;
+}
+.card{
+  width: 175px;
+  font-size: 12px;
+  border: 3px #b96262 solid;
+  border-radius: 9px;
+}
+.card > div > img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+  
+}
+.card-stats{
+  display: flex;
+  align-items: center;
+}
+.card-stats > img{
+  height: 14px;
+  padding: 4px;
+}
+.card-stats > span{
+  color: #918E9B;
+}
+.card >p {
+  font-weight: bold;
+}
+.card-layout{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 40px;
+}
+.root-div > hr{
+  border: 2.5px rgba(128, 128, 128, 0.413) solid;
+  border-radius: 2.5px;
+}
+.containerBox{
+  position: relative;
+    display: inline-block;
+}
+.card-sold{
+  position: absolute;    
+    height: 100%;
+    text-align: left;    
+    width: 100%;
+}
+.card-sold:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: top;}
+.card-sold > h4 {
+  display: inline-block;
+   background-color:rgba(237, 232, 232, 0.644);  
+   border-radius: 2.5px;
+   margin: 3px;
+   color: rgb(14, 13, 13);
+}
