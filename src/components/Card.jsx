@@ -1,5 +1,5 @@
 import React from 'react'
-import star from '../assets/Star 1.png'
+import star from '../../public/assets/Star 1.png'
 const Card = (props) => {
   return (
     <div>
